@@ -43,11 +43,11 @@ Then prepare datasets with the following steps.
 
 ### Running Experiments
 
-To train and evaluate the LucidPPN run `MetiNet/run_training.sh` by uncommenting desired experiments.
+To train and evaluate LucidPPN:
+1. Run `part_detection/run_training.sh` to generate segmentation masks.
+2. Run `MetiNet/run_training.sh` after uncommenting desired experiments.
 
-To train and evaluate the PIP-Net run `PIPNet/run_training.sh` by uncommenting desired experiments.
-
-For LucidPPN, remember to first run `part_detection/run_training.sh` to generate segmentation masks.
+To train and evaluate the PIP-Net run `PIPNet/run_training.sh` after uncommenting desired experiments.
 
 Hint: Before running you may want to update wandb project and entity names found in the source code.
 ### Citation
