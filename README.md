@@ -21,7 +21,7 @@ To reduce this ambiguity, we introduce the Lucid Prototypical Parts Network (Luc
 Our experiments demonstrate that the two branches are complementary and together achieve results comparable to baseline methods. More importantly, LucidPPN generates less ambiguous prototypical parts, enhancing user understanding.</p>
 <br>
 <div align="center">
-    <img src="assets/teaser.svg" alt="Teaser" width="1000">
+    <img src="assets/teaser.png" alt="Teaser" width="1000">
 </div>
 
 ---
