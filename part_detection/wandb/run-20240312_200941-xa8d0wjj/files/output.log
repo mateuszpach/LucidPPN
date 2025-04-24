@@ -1,0 +1,27 @@
+/home/z1164034/unambiguous-prototypes/part_detection/datasets.py:36: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  train_test = pd.read_csv(os.path.join(data_path, 'train_test_split.txt'), delim_whitespace=True, names=['id', 'train'])
+Traceback (most recent call last):
+  File "/home/z1164034/unambiguous-prototypes/part_detection/main.py", line 155, in <module>
+    main()
+  File "/home/z1164034/unambiguous-prototypes/part_detection/main.py", line 72, in main
+    dataset_train = CUBDataset(data_path + '/CUB_200_2011', split=1.0, mode='train', image_size=args.image_size)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z1164034/unambiguous-prototypes/part_detection/datasets.py", line 36, in __init__
+    train_test = pd.read_csv(os.path.join(data_path, 'train_test_split.txt'), delim_whitespace=True, names=['id', 'train'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z1164034/miniconda3/envs/unambiguous-prototypes/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z1164034/miniconda3/envs/unambiguous-prototypes/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z1164034/miniconda3/envs/unambiguous-prototypes/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z1164034/miniconda3/envs/unambiguous-prototypes/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/z1164034/miniconda3/envs/unambiguous-prototypes/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/z1164034/datasets//cub/CUB_200_2011/train_test_split.txt'

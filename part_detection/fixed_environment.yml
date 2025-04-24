@@ -1,0 +1,20 @@
+name: unambiguous-prototypes
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - torchaudio=2.1.0
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - pytorch-cuda=12.1
+  - pip:
+    - tqdm
+    - scikit-learn
+    - pandas
+    - scikit-image
+    - tensorboard
+    - matplotlib
+    - wandb
+    - opencv-python
+    - pycocotools
+prefix: /home/z1164034/miniconda3/envs/unambiguous-prototypes
