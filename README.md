@@ -61,3 +61,7 @@ Hint: Before running you may want to update wandb project and entity names found
     url={https://openreview.net/forum?id=BM9qfolt6p}
 }
 ```
+
+### Acknowledgements 
+
+The work of M. Pach, K. Lewandowska and B. Zieliński work was funded by National Centre of Science (Poland) grant no. 2022/47/B/ST6/03397. The work of D. Rymarczyk was funded by National Centre of Science (Poland) grant no. 2022/45/N/ST6/04147. The work of J. Tabor was funded by National Centre of Science (Poland) grant no. 2023/49/B/ST6/01137. We gratefully acknowledge Polish high-performance computing infrastructure PLGrid (HPC Centers: ACK Cyfronet AGH) for providing computer facilities and support within computational grant no. PLG/2023/016555. Some experiments were performed on servers purchased with funds from the Priority Research Area (Artificial Intelligence Computing Center Core Facility) under the Strategic Programme Excellence Initiative at Jagiellonian University. We are grateful to Jakub Pach and Tomasz Pach for their assistance in composing images for the survey according to our developed template.
